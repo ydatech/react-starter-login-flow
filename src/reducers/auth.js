@@ -1,14 +1,14 @@
 export const types = {
-    AUTO_LOGIN: 'melisa/auth/AUTO_LOGIN',
-    AUTO_LOGIN_FINISH: 'melisa/auth/AUTO_LOGIN_FINISH',
-    LOGIN_REQUEST: 'melisa/auth/LOGIN_REQUEST',
-    LOGIN_SUCCESS: 'melisa/auth/LOGIN_SUCCESS',
-    LOGIN_FAILURE: 'melisa/auth/LOGIN_FAILURE',
-    USER_LOGGED_IN: 'melisa/auth/USER_LOGGED_IN',
-    LOGOUT_REQUEST: 'melisa/auth/LOGOUT_REQUEST',
-    LOGOUT_SUCCESS: 'melisa/auth/LOGOUT_SUCCESS',
-    LOGOUT_FAILURE: 'melisa/auth/LOGOUT_FAILURE',
-    UPDATE_AUTH_USER: 'melisa/auth/UPDATE_AUTH_USER',
+    AUTO_LOGIN: 'my-app/auth/AUTO_LOGIN',
+    AUTO_LOGIN_FINISH: 'my-app/auth/AUTO_LOGIN_FINISH',
+    LOGIN_REQUEST: 'my-app/auth/LOGIN_REQUEST',
+    LOGIN_SUCCESS: 'my-app/auth/LOGIN_SUCCESS',
+    LOGIN_FAILURE: 'my-app/auth/LOGIN_FAILURE',
+    USER_LOGGED_IN: 'my-app/auth/USER_LOGGED_IN',
+    LOGOUT_REQUEST: 'my-app/auth/LOGOUT_REQUEST',
+    LOGOUT_SUCCESS: 'my-app/auth/LOGOUT_SUCCESS',
+    LOGOUT_FAILURE: 'my-app/auth/LOGOUT_FAILURE',
+    UPDATE_AUTH_USER: 'my-app/auth/UPDATE_AUTH_USER',
 }
 
 export const initialState = {

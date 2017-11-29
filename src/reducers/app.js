@@ -1,17 +1,17 @@
 export const types = {
-    LOAD_DATA: 'melisa/app/LOAD_DATA', // Triggers a saga that 1) makes some HTTP requests 2) updates other reducers
-    LOAD_DATA_FINISH: 'melisa/app/LOAD_DATA_FINISH',
-    SHOW_SNACKBAR: 'melisa/app/SHOW_SNACKBAR',
-    HIDE_SNACKBAR: 'melisa/app/HIDE_SNACKBAR',
-    SHOW_DRAWER: 'melisa/app/SHOW_DRAWER',
-    HIDE_DRAWER: 'melisa/app/HIDE_DRAWER',
-    SHOW_LOADING: 'melisa/app/SHOW_LOADING',
-    HIDE_LOADING: 'melisa/app/HIDE_LOADING',
-    ACTIVATE_CHAT_ID: 'melisa/app/ACTIVATE_CHAT_ID',
-    SYNC_DATA: 'melisa/app/SYNC_DATA',
-    SYNC_DATA_FINISH: 'melisa/app/SYNC_DATA_FINISH',
-    LOAD_RAJA_ONGKIR_KECAMATAN: 'melisa/app/LOAD_RAJA_ONGKIR_KECAMATAN',
-    LOAD_RAJA_ONGKIR_KECAMATAN_SUCCESS: 'melisa/app/LOAD_RAJA_ONGKIR_KECAMATAN_SUCCESS'
+    LOAD_DATA: 'my-app/app/LOAD_DATA', // Triggers a saga that 1) makes some HTTP requests 2) updates other reducers
+    LOAD_DATA_FINISH: 'my-app/app/LOAD_DATA_FINISH',
+    SHOW_SNACKBAR: 'my-app/app/SHOW_SNACKBAR',
+    HIDE_SNACKBAR: 'my-app/app/HIDE_SNACKBAR',
+    SHOW_DRAWER: 'my-app/app/SHOW_DRAWER',
+    HIDE_DRAWER: 'my-app/app/HIDE_DRAWER',
+    SHOW_LOADING: 'my-app/app/SHOW_LOADING',
+    HIDE_LOADING: 'my-app/app/HIDE_LOADING',
+    ACTIVATE_CHAT_ID: 'my-app/app/ACTIVATE_CHAT_ID',
+    SYNC_DATA: 'my-app/app/SYNC_DATA',
+    SYNC_DATA_FINISH: 'my-app/app/SYNC_DATA_FINISH',
+    LOAD_RAJA_ONGKIR_KECAMATAN: 'my-app/app/LOAD_RAJA_ONGKIR_KECAMATAN',
+    LOAD_RAJA_ONGKIR_KECAMATAN_SUCCESS: 'my-app/app/LOAD_RAJA_ONGKIR_KECAMATAN_SUCCESS'
 
 }
 
